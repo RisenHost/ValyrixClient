@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.valyrix.mixin",
+  "compatibilityLevel": "JAVA_21",
+
+  "client": [
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
