@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "valyrix",
+  "version": "1.0.0",
+  "name": "Valyrix Client",
+  "description": "A high-performance client-side mod for Minecraft 1.21.1 with modular feature system.",
+  "authors": [
+    "YourNameHere"
+  ],
+  "contact": {
+    "homepage": "https://yoursite.com",
+    "sources": "https://github.com/yourname/valyrix"
+  },
+  "license": "MIT",
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "com.valyrix.ValyrixClient"
+    ]
+  },
+
+  "mixins": [
+    "valyrix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api":   ">=0.102.0+1.21.1",
+    "minecraft":    "~1.21.1",
+    "java":         ">=21"
+  },
+
+  "suggests": {
+    "sodium": "*"
+  }
+}
